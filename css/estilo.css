@@ -1,0 +1,428 @@
+*{
+  font-family: sans-serif;
+  box-sizing:border-box;
+  padding: 0;
+  margin:0;
+}
+
+body{
+  width: 90%;
+  margin: auto;
+}
+
+.todo{
+  box-shadow: 0 0 10px 1px grey inset;
+  background: white;
+}
+
+header {
+  background: #000;
+  display: flex;
+  height: 64px;
+  color: #FFF;
+}
+
+.barrasuperior img{
+	width:100%;
+}
+
+.BarraSuperior{
+  overflow:hidden;
+  margin:auto;
+	width:100%;
+}
+
+.BarraSuperior ul{
+  animation: cambio 15s infinite alternate linear;
+  list-style:none;
+	display:flex;
+  width:400%; height: 355px;
+}
+
+.BarraSuperior li{
+	width:100%;
+}
+
+.BarraSuperior img{
+	width:100%; height: 350px;
+}
+
+@keyframes cambio{
+	0%{margin-left:0;    }
+	20% {margin-left:0;  }
+	25% {margin-left: -100%;  }
+	45% {margin-left: -100%;  }
+	50% {margin-left: -200%;  }
+	70% {margin-left: -200%;  }
+	75% {margin-left: -300%;  }
+	100% {margin-left: -300%; }
+  }
+
+
+#btn-menu {
+  display: none;
+}
+
+header label {
+  cursor: pointer;
+  display: none;
+}
+
+.menu{
+  width: 100%;
+}
+
+.menu ul {
+  background: #000;
+  list-style:none;
+  display: flex;
+}
+
+.menu a {
+  font-size: 20px;
+  text-decoration: none;
+  padding: 15px 20px;
+  line-height: 32px;
+  font-weight:700;
+  display:block;
+  color: #FFF;
+}
+
+.menu i {
+  padding-right: 20px;
+  font-size: 30px;
+}
+
+.menu a:hover {
+  background: #00aae7;
+}
+
+.marcas{
+  margin: auto;
+  width: 50%;
+}
+
+.Promo{
+	width:80%;
+	color:black;
+	margin:auto;
+	box-sizing:border-box;
+}
+
+.Promo p {
+	text-align:justify;
+	color:black;
+  padding: 100px;
+	font-size:20px;
+
+}
+
+  .marcas img{
+    width: 100%;
+}
+
+.LinkRedes{
+    margin:30px;
+}
+
+.LinkRedes .lightbox img {
+    width: 5%;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+	  margin-right:20px;
+	  min-width:40px;
+}
+
+.LinkRedes .lightbox img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 50px rgba(0,0,0,0.3);
+}
+
+.LinkRedes img {
+    border-radius: 70px;
+}
+
+  .finaltodo{
+    box-shadow: 0 0 8px 1px grey inset;
+    background: black;
+    padding: 20px;
+}
+    .finaltodo p {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+@media  (max-width: 968px ){
+    body{
+      color:white;
+    box-shadow: 0 0 10px 1px white inset;
+    width: 100%;
+    height: 100%;
+}
+
+    .todo{
+    box-shadow: 0 0 10px 1px grey inset;
+    width: 100%;
+    height: 100%;
+    background:none;
+}
+
+    .logo{
+    width: 25%;
+    padding-bottom: 15px;
+    display: flex;
+    float: left;
+}
+    header label {
+    box-shadow: 0 0 10px 1px grey inset;
+    background: #00aae7;
+    transition: all 0.4s ease;
+    padding-top: 16px;
+    display: flex;
+    padding-right: 10px;
+    font-size: 40px;
+    justify-content: space-between;
+}
+
+  .titulo{
+    font-family: Uroob;
+    font-size: 20px;
+    margin-right: 15px;
+    display: block;
+    margin-top: 9px;
+    float: right;
+}
+
+  .menu {
+    transform: translateX(-100%);
+    transition: all 0.3s;
+    position: absolute;
+    width: 50%;
+    top: 64px;
+    left: 0;
+}
+
+    .menu ul {
+    box-shadow: 0 0 10px 1px grey inset;
+    background:#00aae7;
+    flex-direction: column;
+    display: block;
+}
+
+  .menu ul li:hover ul {
+    position: static;
+    display: none;
+}
+
+  .menu a i {
+    position: absolute;
+    line-height:32px;
+    font-size:20px;
+    right: 16px;
+}
+  .menu a {
+    font-size:17px;
+}
+
+  #btn-menu:checked ~ .menu {
+    transform: translateX(0%);
+}
+
+
+.BarraSuperior{
+  display: none;
+  border: 3px solid #00aae7;
+  border-radius:10px;
+  overflow:hidden;
+  margin-top: 10px;
+	width:85%;
+  height: 120px;
+}
+
+.bloque{
+  margin-top: 30px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%; height: 250px;
+}
+
+.bloque1{
+  box-shadow: 0 0 8px 1px black inset;
+  border-radius: 15px;
+  margin: 10px;
+  width: 40%; height: 50%;
+  background: blue;
+}
+
+.bloque1 i {
+  margin: 35px;
+  color: white;
+  width: 10px;
+  float: left;
+}
+
+.bloque1 p {
+text-align: center;
+}
+
+#parrafo2bloque1{
+  font-size: 10px;
+}
+
+
+#parrafobloque1{
+  padding-top: 30px;
+  font-size: 13px;
+  padding:40px;
+
+}
+
+.bloque2{
+  box-shadow: 0 0 8px 1px black inset;
+  border-radius: 15px;
+  margin: 10px;
+  width: 40%; height: 50%;
+  background: #008363;
+}
+
+
+.bloque2 i {
+  margin: 35px;
+  padding-left: 20px;
+  color: white;
+  float: left;
+}
+
+.bloque2 p {
+text-align: center;
+}
+
+#parrafo2bloque2{
+  font-size: 10px;
+}
+
+
+
+#parrafobloque2{
+  margin-top: 30px;
+  font-size: 13px;
+  padding:10px;
+
+}
+.bloque3{
+  box-shadow: 0 0 8px 1px black inset;
+  border-radius: 15px;
+  margin: 10px;
+  width: 40%; height: 50%;
+  background:red;
+}
+
+.bloque3 i {
+  margin: 35px;
+  padding-left: 20px;
+  color: white;
+  float: left;
+}
+
+.bloque3 p {
+text-align: center;
+}
+
+#parrafo2bloque3{
+  font-size: 10px;
+}
+
+
+#parrafobloque3{
+  margin-top: 20px;
+  font-size: 13px;
+  margin-right:20px;
+
+}
+
+.bloque4{
+    box-shadow: 0 0 8px 1px black inset;
+    border-radius: 15px;
+    margin: 10px;
+    width: 40%; height: 50%;
+    background: yellow;
+}
+
+.bloque4 i {
+  margin: 35px;
+  padding-left: 20px;
+  color: white;
+  float: left;
+}
+
+.bloque4 p {
+text-align: center;
+}
+
+#parrafo2bloque4{
+  font-size: 10px;
+}
+
+
+#parrafobloque4{
+  margin-top: 35px;
+  font-size: 13px;
+  margin-right:15px;
+}
+
+.Promo p {
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  font-size: 12px;
+}
+
+.Promo h1{
+  display: none;
+}
+
+  .marcas img{
+    padding-top: 50px;
+    width: 100%;
+}
+
+    .LinkRedes{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+    .LinkRedes .lightbox img {
+        transition: 0.2s ease-in-out;
+        box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    	  margin-right:10px;
+    	  min-width:40px;
+}
+
+    .LinkRedes .lightbox img:hover{
+        transform: scale(1.05);
+        box-shadow: 0 8px 50px rgba(0,0,0,0.3);
+}
+
+    .LinkRedes img {
+        border-radius: 70px;
+}
+
+    .finaltodo{
+      box-shadow: 0 0 5px 1px white inset;
+      background: #00aae7;
+      padding: 20px;
+}
+    .finaltodo p {
+        text-align: center;
+        color: white;
+        font-size: 10px;
+  }
+}

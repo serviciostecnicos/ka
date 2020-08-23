@@ -118,7 +118,7 @@ header label {
 }
 
 .Promo{
-  display: none;
+	display: none;
 	width:80%;
 	color:black;
 	margin:auto;
@@ -128,7 +128,7 @@ header label {
 .Promo p {
 	text-align:justify;
 	color:black;
-  padding: 100px;
+  	padding: 100px;
 	font-size:20px;
 
 }
@@ -402,6 +402,10 @@ text-align: center;
   margin-right:15px;
 }
 
+.Promo{
+display:block;
+}
+	
 .Promo p {
   display: block;
   text-align: center;

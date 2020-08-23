@@ -69,6 +69,7 @@ header label {
 }
 
 .menu{
+display:none;
   width: 100%;
 }
 
@@ -110,6 +111,7 @@ header label {
 }
 
 .Promo p {
+	display:none;
 	text-align:justify;
 	color:black;
   padding: 100px;
@@ -122,6 +124,7 @@ header label {
 }
 
 .LinkRedes{
+	display:none;
     margin:30px;
 }
 
@@ -197,6 +200,7 @@ header label {
 }
 
   .menu {
+    display:block;
     transform: translateX(-100%);
     transition: all 0.3s;
     position: absolute;
@@ -376,6 +380,7 @@ text-align: center;
 }
 
 .Promo p {
+	display:block;
   text-align: center;
   width: 100%;
   padding: 0;
@@ -388,7 +393,7 @@ text-align: center;
 }
 
     .LinkRedes{
-
+    display:block;
     margin-top: 50px;
     margin-bottom: 50px;
 }

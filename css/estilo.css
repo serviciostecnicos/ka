@@ -11,11 +11,23 @@ body{
 }
 
 .todo{
+  height: 760px;
   box-shadow: 0 0 10px 1px grey inset;
   background: white;
 }
 
+.computadora{
+  font-size: 30px;
+  padding: 300px;
+  text-align: center;
+}
+
+.texto11{
+display: none;
+}
+
 header {
+  display: none;
   background: #000;
   display: flex;
   height: 64px;
@@ -27,6 +39,7 @@ header {
 }
 
 .BarraSuperior{
+  display: none;
   overflow:hidden;
   margin:auto;
 	width:100%;
@@ -69,7 +82,7 @@ header label {
 }
 
 .menu{
-display:none;
+  display: none;
   width: 100%;
 }
 
@@ -99,11 +112,13 @@ display:none;
 }
 
 .marcas{
+  display: none;
   margin: auto;
   width: 50%;
 }
 
 .Promo{
+  display: none;
 	width:80%;
 	color:black;
 	margin:auto;
@@ -111,7 +126,6 @@ display:none;
 }
 
 .Promo p {
-	display:none;
 	text-align:justify;
 	color:black;
   padding: 100px;
@@ -120,12 +134,17 @@ display:none;
 }
 
   .marcas img{
+    display: none;
     width: 100%;
 }
 
 .LinkRedes{
-	display:none;
+  display: none;
     margin:30px;
+}
+
+.bloque{
+  display: none;
 }
 
 .LinkRedes .lightbox img {
@@ -146,6 +165,7 @@ display:none;
 }
 
   .finaltodo{
+    display: none;
     box-shadow: 0 0 8px 1px grey inset;
     background: black;
     padding: 20px;
@@ -159,7 +179,7 @@ display:none;
 
 
 
-@media  (max-width: 968px ){
+@media  (max-width: 900px ){
     body{
     box-shadow: 0 0 10px 1px white inset;
     width: 100%;
@@ -173,13 +193,27 @@ display:none;
     background:white;
 }
 
+.computadora{
+  display: none;
+}
+
+.texto11{
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+
+}
+
     .logo{
+    display: block;
     width: 25%;
     padding-bottom: 15px;
     display: flex;
     float: left;
 }
     header label {
+    display: block;
     box-shadow: 0 0 10px 1px grey inset;
     background: #00aae7;
     transition: all 0.4s ease;
@@ -200,7 +234,7 @@ display:none;
 }
 
   .menu {
-    display:block;
+    display: block;
     transform: translateX(-100%);
     transition: all 0.3s;
     position: absolute;
@@ -235,17 +269,6 @@ display:none;
     transform: translateX(0%);
 }
 
-
-.BarraSuperior{
-  display: none;
-  border: 3px solid #00aae7;
-  border-radius:10px;
-  overflow:hidden;
-  margin-top: 10px;
-	width:85%;
-  height: 120px;
-}
-
 .bloque{
   margin-top: 30px;
   padding-bottom: 50px;
@@ -275,7 +298,8 @@ text-align: center;
 }
 
 #parrafo2bloque1{
-  font-size: 10px;
+  margin-top: 30px;
+  font-size: 80%;
 }
 
 
@@ -307,10 +331,9 @@ text-align: center;
 }
 
 #parrafo2bloque2{
-  font-size: 10px;
+  margin-top: 30px;
+  font-size: 80%;
 }
-
-
 
 #parrafobloque2{
   margin-top: 30px;
@@ -338,15 +361,14 @@ text-align: center;
 }
 
 #parrafo2bloque3{
-  font-size: 10px;
+  margin-top: 30px;
+  font-size: 80%;
 }
-
 
 #parrafobloque3{
   margin-top: 20px;
   font-size: 13px;
   margin-right:20px;
-
 }
 
 .bloque4{
@@ -369,7 +391,8 @@ text-align: center;
 }
 
 #parrafo2bloque4{
-  font-size: 10px;
+  margin-top: 30px;
+  font-size: 80%;
 }
 
 
@@ -380,7 +403,7 @@ text-align: center;
 }
 
 .Promo p {
-	display:block;
+  display: block;
   text-align: center;
   width: 100%;
   padding: 0;
@@ -388,12 +411,13 @@ text-align: center;
 }
 
   .marcas img{
+    display: block;
     padding-top: 50px;
     width: 100%;
 }
 
     .LinkRedes{
-    display:block;
+    display: block;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -415,6 +439,7 @@ text-align: center;
 }
 
     .finaltodo{
+      display: block;
       box-shadow: 0 0 5px 1px white inset;
       background: #00aae7;
       padding: 20px;

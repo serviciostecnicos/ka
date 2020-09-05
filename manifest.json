@@ -1,0 +1,21 @@
+{
+ "short_name": "Servicios Tecnicos",
+ "name": "Kevin Guerrero",
+ "lang": "es",
+ "scope": "./",
+ "description": "Especialistas en mantenimiento y repacion de Equipo de Oficina",
+ "background_color": "#00aae7",
+ "theme_color": "#00aae7",
+ "prompt_message":"Agregar un icono a la pantalla",
+ "dir": "auto",
+ "display": "standalone",
+ "orientation": "portrait",
+ "start_url": "https://serviciostecnicos.github.io/kg/Index",
+ "icons": [
+  {
+   "src": "css/img/icons2.png",
+   "type": "image/png",
+   "sizes": "512x512"
+  }
+ ]
+}
